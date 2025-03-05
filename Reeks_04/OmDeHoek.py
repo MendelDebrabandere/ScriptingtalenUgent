@@ -10,6 +10,8 @@
     False
     """
 
+
+
     if len(v) < 3 or not isinstance(v, (tuple, list)) or not isinstance(v[0], str):
         return False
 
