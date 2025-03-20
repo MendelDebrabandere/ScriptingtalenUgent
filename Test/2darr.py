@@ -1,11 +1,8 @@
-﻿rij = [0] * 3
+﻿def twoSum(self, nums: List[int], target: int) -> List[int]:
+    viewedNumsMap = {}
 
-matrix = rij * 3
-
-print(matrix)
-
-matrix[0][0] = 1
-
-print(matrix)
-
-
+    for i, c in enumerate(nums):
+        if viewedNumsMap.get(target - c) is not None:
+            return [viewedNumsMap[target-c], i]
+        else:
+            viewedNumsMap[c] = i
