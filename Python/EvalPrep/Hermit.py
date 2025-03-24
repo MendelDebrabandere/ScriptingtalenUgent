@@ -92,8 +92,6 @@ class Hermit:
             valid &= self.isvalid(c, position)
         return valid
 
-
-
     def move(self, c, pos, p):
         positions = self.positions(pos, p)
 
