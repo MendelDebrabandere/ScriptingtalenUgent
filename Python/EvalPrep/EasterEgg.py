@@ -112,7 +112,7 @@
 
 
 
-    def __init__(self, m, n, start, file_name):R
+    def __init__(self, m, n, start, file_name):
         self.m = m
         self.n = n
         self.bunny_pos = EasterEgg.to_num_coords(start)
