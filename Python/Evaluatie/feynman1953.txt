@@ -1,0 +1,3 @@
+The behavior of liquid helium, especially below the lambda transition, is very curious.
+The most successful theoretical interpretations so far, have been largely phenomenological.
+In this paper and one or two to follow, the problem will be studied entirely from first principles
