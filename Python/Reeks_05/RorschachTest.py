@@ -21,14 +21,14 @@ def rorschach(fileName, output=None):
     """
 
     outputstr = ''
-    with open(fileName, 'r') as file:
+    with open(fileName, 'r', encoding='UTF-8') as file:
         for line in file:
             line = line.rstrip()
             outputstr += line + line[::-1] + '\n'
 
 
     if output is not None:
-        with open(output, 'w') as out_file:
+        with open(output, 'w', encoding='UTF-8') as out_file:
             out_file.write(outputstr)
     else:
         print(outputstr.strip())
